@@ -1,0 +1,6 @@
+FROM node:18
+WORKDIR /DEVOPS_CAPSTONE
+COPY . /DEVOPS_CAPSTONE
+RUN npm install
+EXPOSE 5000
+CMD ["npm", "start"]
